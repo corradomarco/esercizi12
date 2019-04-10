@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
-import { FormDemooComponent } from './form-demoo/form-demoo.component';
+import { FormDemoComponent } from './form-demoo/form-demoo.component';
 import {   //Importare le funzionalità nella nostra applicazione
  FormsModule,
  ReactiveFormsModule
@@ -10,7 +10,7 @@ import {   //Importare le funzionalità nella nostra applicazione
 @NgModule({
   declarations: [
     AppComponent,
-    FormDemooComponent
+    FormDemoComponent
   ],
   imports: [
     BrowserModule,

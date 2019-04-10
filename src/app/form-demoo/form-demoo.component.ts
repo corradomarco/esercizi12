@@ -8,14 +8,15 @@ import {
 
 @Component({
  selector: 'app-form-demo',
- templateUrl: './form-demo.component.html',
- styleUrls: ['./form-demo.component.css']
+ templateUrl: './form-demoo.component.html',
+ styleUrls: ['./form-demoo.component.css']
 })
 export class FormDemoComponent implements OnInit {
  myForm: FormGroup;
  constructor(fb: FormBuilder) {
    this.myForm = fb.group({
-     'sku': ['ABC123', Validators.required]
+     'sku': ['ABC123', Validators.required] , 'price':['100', Validators.required] , 'capacità':['100', Validators.required]
+
    });
  }
  ngOnInit() {
